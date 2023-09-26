@@ -4,20 +4,17 @@ import {
 	Button,
 	Card,
 	Col,
-	Dropdown,
-	DropdownButton,
-	Form,
 	Nav,
+	Row,
+	Tab
+	Table,
 } from 'react-bootstrap';
-import { Row } from 'react-bootstrap';
+import { BagCheckFill } from 'react-bootstrap-icons';
 import StarRatingComponent from 'react-star-rating-component';
 import NumericInput from 'react-numeric-input';
-import { BagCheckFill, PersonFill } from 'react-bootstrap-icons';
-import { Tab } from 'react-bootstrap';
-import { Table } from 'react-bootstrap';
 import React, { useContext, useState } from 'react';
-import CartOffCanvas from '../../components/CartOffCanvas';
 import axios from 'axios';
+import CartOffCanvas from '../../components/CartOffCanvas';
 import SkuDetailsList from '../../components/Product/SkuDetailsList';
 import { getFormatedStringFromDays } from '../../helper/utils';
 import ProductItem from '../../components/Products/ProductItem';

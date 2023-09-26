@@ -1,5 +1,5 @@
 import requests, { resposnePayload } from './api';
-import queryString from 'query-string';
+
 // create order service
 export const Orders = {
 	// checkout session for order
